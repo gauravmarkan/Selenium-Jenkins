@@ -12,3 +12,11 @@ java - jar jenkins.war --HTTPport9191
 
 Get into Jenkins and create new file by giving it a name & selecting freestyle project from the list of project types. 
 
+You will get a next page somewhat like settings, in order to have basic execution. We will go to build option and select Execute Windows Batch Command (if using Windows) and if you are on MAC OS, select Execute shell. 
+
+Provide the command to run the selenium test 
+
+Copy the project location and go to command line & try to exceute it through it.
+
+Perform the same command instructions on desktop as well as Jenkins. 
+
